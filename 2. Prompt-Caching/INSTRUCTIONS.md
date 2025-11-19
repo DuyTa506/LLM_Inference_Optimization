@@ -43,6 +43,7 @@ Prompt: `[System Prompt A] + [User Query 2]`
 - **Kết quả**: Nhanh hơn rất nhiều (giảm Time To First Token).
 
 ![Prompt Caching Concept](images/Prompt_Cache.png)
+
 *Minh họa cơ chế Prompt Caching*
 
 ### Xử lý Tokenization (Lưu ý quan trọng)
@@ -79,6 +80,7 @@ Without Prompt Caching, the model recomputes the KV for this static part **every
     - Only compute for the **new** part (suffix).
 
 ![Radix Tree Structure](images/Radix_Tree.png)
+
 *Radix Tree structure for efficient prefix matching*
 
 ### Illustration
@@ -96,6 +98,7 @@ Prompt: `[System Prompt A] + [User Query 2]`
 - **Result**: Much faster (reduced Time To First Token).
 
 ![Prompt Caching Concept](images/Prompt_Cache.png)
+
 *Prompt Caching Mechanism Illustration*
 
 ### Handling Tokenization (Important Note)
