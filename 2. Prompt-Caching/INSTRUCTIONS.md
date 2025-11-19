@@ -25,6 +25,7 @@ Nếu không có Prompt Caching, mô hình phải tính toán lại KV cho phầ
     - Chỉ tính toán tiếp cho phần **mới** (suffix).
 
 ![Radix Tree Structure](images/Radix_Tree.png)
+
 *Cấu trúc Radix Tree giúp tìm kiếm tiền tố hiệu quả*
 
 ### Ví dụ Minh họa
